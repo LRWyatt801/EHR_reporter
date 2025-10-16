@@ -4,4 +4,4 @@ This is a personal project to learn a EHR api and create a website that pulls re
 
 More info to come!
 
-<a href="login.pdf">Current mock up</a>
+<a href="Login.pdf">Current mock up</a>
