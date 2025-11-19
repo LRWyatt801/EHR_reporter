@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #282c34;
+    color: white;
+}
+
+.botton {
+    background-color: #61dafb;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: #282c34;
+    cursor: pointer;
+    font-weight: bold;
+}
