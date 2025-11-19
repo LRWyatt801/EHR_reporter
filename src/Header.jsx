@@ -1,9 +1,9 @@
-import 'Header.css'
+import './Header.css'
 
 function Header() {
   return (
-    <header>
-      <button> Login </button>
+    <header className="header">
+      <button className='button-login'> Login </button>
     </header>
   )
 }

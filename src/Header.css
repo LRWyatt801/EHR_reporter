@@ -7,7 +7,7 @@
     color: white;
 }
 
-.botton {
+.botton-login {
     background-color: #61dafb;
     border: none;
     padding: 0.5rem 1rem;
@@ -15,4 +15,5 @@
     color: #282c34;
     cursor: pointer;
     font-weight: bold;
+    float: right;
 }
