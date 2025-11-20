@@ -3,7 +3,8 @@ import './Header.css'
 function Header() {
   return (
     <header className="header">
-      <button className='button-login'> Login </button>
+        <h1> Hello Welcome to Reporter </h1>
+      <button className='header__login'> Login </button>
     </header>
   )
 }
