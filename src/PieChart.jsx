@@ -1,5 +1,3 @@
-import './PieChart.css'
-
 function PieChart() {
   return (
     <>
@@ -12,8 +10,14 @@ function PieChart() {
         </select>
     </div>
     <div className="pie-chart">
-      <h2>Pie Chart Component</h2>
-      {/* Pie chart implementation goes here */}
+        <h2>Pie Chart Component</h2>
+        <svg width="200" height="200" viewBox="0 0 100 100">
+        {/* <!-- Circle for background or full pie --> */}
+        <circle cx="50" cy="50" r="40" fill="#eee"/>
+        {/* <!-- Path for a slice --> */}
+        <path d="M50,50 L50,10 A40,40 0 0,1 84.6,30.3 Z" fill="red"/>
+        {/* <!-- Add more paths for other slices --> */}
+        </svg>
     </div>
     </>
   )
